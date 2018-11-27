@@ -49,7 +49,7 @@ void setup() {
 long oldPosition  = -999;
 
 void loop() {
-  if (digitalRead(7) == 1) {
+  if (digitalRead(SET_PIN) == 1) {
     Setpoint = 1000;
   } else {
     Setpoint = 0;
