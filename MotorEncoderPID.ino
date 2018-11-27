@@ -1,5 +1,10 @@
 /** Hybrid servomotor using dc motor + encoder + PID
  *  
+ *  Both libraries can be installed directly from the Library Manager
+ *  Arduino PID Library by Brett Beauregard
+ *  Encoder Library by Paul Stoffregen
+ *  
+ *  MIT License 2018 CRCibernetica
 */
 
 #include <Encoder.h>
